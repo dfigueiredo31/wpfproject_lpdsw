@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfProjectLpdsw.Models
 {
-    internal class Product
+    internal class WarehouseStock
     {
-        public int ProductId { get; set; }
-        public string ProductName { get; set; }
-        public string CodeBar {  get; set; }
     }
 }
