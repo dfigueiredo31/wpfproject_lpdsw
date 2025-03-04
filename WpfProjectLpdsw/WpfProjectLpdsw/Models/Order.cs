@@ -8,5 +8,8 @@ namespace WpfProjectLpdsw.Models
 {
     internal class Order
     {
+        int OrderId { get; set; }
+        int ClientId { get; set; }
+        public List<Product> OrderProducts { get; set; }
     }
 }
