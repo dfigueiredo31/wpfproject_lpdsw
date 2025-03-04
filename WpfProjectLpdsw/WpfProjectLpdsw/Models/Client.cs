@@ -8,7 +8,7 @@ namespace WpfProjectLpdsw.Models
 {
     internal class Client
     {
-        public int Id { get; set; }
+        public int IdCliente { get; set; }
         public string ClientName {  get; set; }
         public string ClientEmail { get; set; }
         public string Address1 { get; set; }
